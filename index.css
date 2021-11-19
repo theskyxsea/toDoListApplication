@@ -1,0 +1,110 @@
+.container {
+  border: 2px solid black;
+  height: 250px;
+  width: 900px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 2px 2px;
+}
+.inputField {
+  margin: 5px 5px 20px 5px;
+  height: 35px;
+  width: 500px;
+  justify-content: center;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+.inputField:hover {
+  border-color: whitesmoke;
+}
+
+h1 {
+  font-weight: bold;
+  text-decoration: double underline;
+}
+.outerBtn {
+  border-radius: 7px;
+  height: 35px;
+  width: auto;
+  margin: 5px 5px 20px 5px;
+  padding-left: 3px;
+  padding-right: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 150px;
+}
+.outerBtn:hover {
+  background-color: rgba(128, 119, 119, 0.89);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 18px;
+  transition: 500ms;
+}
+ul {
+  list-style: none;
+  justify-content: center;
+  margin-left: 0px;
+  padding-inline-start: 0 !important;
+}
+li {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 21, 21, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  text-align: left;
+  display: flex;
+  height: 30px;
+  margin: 10px 20px;
+  /* background-color: rgb(0, 0, 0); */
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 2.5px 10px;
+}
+
+.listDone {
+  background-color: gray;
+}
+
+body {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.lable1 {
+  height: 35px;
+}
+.innerListBox {
+  justify-content: center;
+  vertical-align: middle;
+  /* margin-right: 900px; */
+  padding-bottom: 135px;
+  width: 200px;
+  float: right;
+  margin: 0px 10px 0px 1300px;
+  /* border: rgb(255, 255, 255) solid 1px; */
+}
+.innerBtn {
+  vertical-align: middle;
+  width: 50px;
+  border-radius: 50px;
+  height: 20px;
+  margin: 5px 15px 15px 5px;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px;
+  border: none;
+  font-weight: bold;
+}
+.innerBtn:hover {
+  color: white;
+  background-color: black;
+  border: blueviolet 0.5px solid;
+  transition: 500ms;
+  cursor: pointer;
+}
